@@ -1,0 +1,38 @@
+<!DOCTYPE hmtl>
+<html lang = "ru">
+    <head>
+        <meta charset = "UTF-8">
+        <title>My final project</title>
+        <link rel = stylesheet href = "style.css">
+    </head>
+    <body>
+        <main>
+            <h2 class = "midheader">Notes for the site</h2>
+            <nav>
+                <button id="main_btn" class = "additionaldeco">Hide links</button>
+                 <ul id="main_menu" class="base_menu menu_open">
+                     <li>
+                         <a href="https://www.deviantart.com/chichoose" class = "text1">DeviantArt</a>
+                     </li>
+                     <li>
+                         <a href="https://www.youtube.com/channel/UC_DCu8ijyk7IS2QL9iba62w" class = "text1">Youtube</a>
+                     </li>
+
+                 </ul>
+             </nav>
+            <p class = "textnotes">1. Click on images to get to the full version (redirects to DA)</p>
+            <p class = "textnotes">2. All the website's images are drawn by ChiChoose. Do not post without written permission!</p>
+        </main>
+
+    </body>
+    <footer>
+        <a href = "index.html" class = "menu__href textofbacking">Back to main page</a>
+    </footer>
+    <script>
+        "use strict"
+        main_btn.addEventListener("click",fOpen)
+        function fOpen() {
+        main_menu.classList.toggle("menu_open")
+    }
+    </script>
+</html>
